@@ -1,7 +1,5 @@
 body {
     background-color: darkgrey;
-    padding: 0;
-    margin: 0;
 }
 
 button {
@@ -10,5 +8,28 @@ button {
     border-radius: 17px;
     height: 70px;
     width: 120px;
-
 }
+
+
+    .progress-container {
+      width: 80%;
+      height: 30px;
+      background-color: #ddd;
+      border-radius: 15px;
+      margin: 20px auto;
+      overflow: hidden;
+    }
+
+    #progress {
+      height: 100%;
+      width: 0%;
+      background-color: #4caf50;
+      line-height: 30px;
+      color: white;
+      text-align: center;
+      transition: width 0.5s ease;
+    }
+
+
+
+
